@@ -1,11 +1,11 @@
 // Adivinar el número
 
-var numeroAleatorio = Math.floor(Math.random() * 100) + 1;
+let numeroAleatorio = Math.floor(Math.random() * 100) + 1;
 let intentos = 0;
 let maxIntentos = 10;
 
 function adivinarNumero() {
-    var intento = parseInt(prompt("Ingrese un número (entre 1 a 100): "));
+    let intento = parseInt(prompt("Ingrese un número (entre 1 a 100): "));
     intentos++;
 
     if (intento === numeroAleatorio) {
